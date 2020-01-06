@@ -19,11 +19,12 @@ Additional info:
 - Some Unplaceables can be only placed in their own biome. Thus it will give an error message that it failed to place. (example: corrupt grass plants can only be placed on corrupt grass tiles.)
 
 Commands:
-/place help - Displays a short information about the command.
-/place list - Lists all Unplaceable IDs.
-/place <ID> <style> - Triggers one time tile placing.
-/place <ID> <style> -auto - Enables continuous tile placing
-/place off - Exits Unplaceable tile placing
+- /place help - Displays a short information about the command.
+- /place list - Lists all Unplaceable IDs.
+- /place <ID> <style> - Triggers one time tile placing.
+- /place <ID> <style> -auto - Enables continuous tile placing
+- /place off - Exits Unplaceable tile placing
+  
 Permissions:
 unplaceables.place - Allows user to use /place command.
 unplaceables.auto - Allows user to use the -auto parameter.
